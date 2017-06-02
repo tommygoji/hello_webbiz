@@ -6,13 +6,64 @@
   </head>
   <body>
 <!--
-グローバル属性
-id:一つしかない要素
-class:複数ある要素
-style:スタイルを直接指定
+p: 段落
+hr:水平線
+pre: 改行、字下げを保持して
+blockquote:引用
+div: レイアウト、スタイリング
 -->
-    <p id="message">こんにちは</p>
-    <p class="message active">こんにちは</p>
-    <p class="message" style="background:skyblue;">こんにちは</p>
+    <article>
+  <header>
+      <h1>美味しいご飯!</h1>
+      <div style="background:skyblue;">
+          <p>至高のTKG</p>
+          <hr>
+          <p>ところであの件は?</p>
+      </div>
+      <pre>
+          poem
+              poem
+                  poem
+      </pre>
+      <blockquote>
+          TKG最高! by @taguchi
+      <nav>
+      - ホーム
+      - このサイトについて
+      - プロフィール
+      </nav>
+  </header>
+
+      <section>
+      <h1>今月の美味しいご飯</h1>
+      <article>
+      <h1>美味しいご飯 #12</h1>
+      志向のTKG
+      </article>
+  </section>
+
+    <section>
+      <h1>新着の美味しいご飯</h1>
+      <article>
+        <h1>美味しいご飯 #32<h1>
+        ハモしゃぶ
+      </article>
+      <article>
+        美味しいご飯 #31
+        スリランカカレー
+      </article>
+    </section>
+    <aside>
+        <h1>おすすめレシピ本</h1>
+        - Book 1
+        - Book 2
+        - Book 3
+    </aside>
+    <footer>
+      このサイトは@taguchiによって運営されています。
+    </footer>
+      <p id="message">こんにちは</p>
+      <p class="message active">こんにちは</p>
+      <p class="message" style="background:skyblue;">こんにちは</p>
   </body>
 </html>
